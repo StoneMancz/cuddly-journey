@@ -9,8 +9,14 @@ export default new Router({
     base: process.env.BASE_URL,
     routes: [{
             path: '/',
+            name: '',
+            redirect: '/botnav/index'
+        },
+        {
+            path: '/login',
             name: 'login',
-            component: Login
+            component: () =>
+                import ('./views/Login.vue')
         },
         {
             path: '/index',

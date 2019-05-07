@@ -24,7 +24,7 @@ export default {
     item_click(item) {
       if (item.type) {
         this.$router.push({
-          path: '/'
+          path: '/login'
         })
       }
     }
