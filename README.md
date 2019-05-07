@@ -1,29 +1,13 @@
 # mall_project
 
-## Project setup
-```
-npm install
-```
+## 前言
+   在看完vue的官方文档后，一直苦于没有实际项目可以练手，故做了一个模仿京东的商城项目；
+   虽然是个小项目，但麻雀虽小五脏俱全。适用于vue的入门.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 技术栈
+    vue-cli3.0+vuex+vue-router+webpack+es6/7+stylus+cub-ui
+### 项目效果
+     总共五个页面：登录、主页、分类页、购物车、我的;
+     
+###项目的运行
+  ķ拷贝项目直接运行在谷歌浏览器下在手机模式下观
